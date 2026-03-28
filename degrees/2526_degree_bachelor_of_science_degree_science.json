@@ -1,0 +1,66 @@
+{
+    "degreeType": "BSc",
+    "degreeName": "Bachelor of Science Degree Requirements (Science)",
+    "Minimum Average(s) Required": {
+        "description": "See major for required cumulative overall and major averages."
+    },
+    "Degree Requirements": {
+        "Undergraduate Communication Requirement": {
+            "description": "Students are required to complete one course to meet the Undergraduate Communication Requirement.",
+            "required_course": {
+                "type": "one_of",
+                "options": ["COMMST193", "ENGL193"]
+            },
+            "notes": [
+                "Students enrolled in the Faculty of Science before September 2018 should consult the English Language Proficiency Requirement described in the Calendar of their entry year.",
+                "Successful completion of the Undergraduate Communication Requirement will result in a communication milestone on the student record.",
+                "Students transferring to another faculty may need additional courses to satisfy that faculty's Undergraduate Communication Requirement.",
+                "Students transferring into the Faculty of Science who have completed their Undergraduate Communication Requirement in another faculty may have it count toward this requirement.",
+                "Normally, transfer credits cannot be used to satisfy the Undergraduate Communication Requirement."
+            ]
+        },
+        "Co-operative Education Program Requirements": {
+            "Work Terms": {
+                "minimum_total": 4,
+                "minimum_standard": 3
+            },
+            "Professional Development Courses": {
+                "total_required": 4,
+                "requirements": [
+                    "PD1: Must be taken in an academic term prior to the first work term.",
+                    "PD11: Must be taken during the first work term.",
+                    "Two additional PD courses: To be taken during subsequent work terms."
+                ]
+            },
+            "Additional Constraints and Notes": [
+                "With the exception of Biotechnology/Chartered Professional Accountancy students who have four work-term opportunities, students are given five work-term opportunities to complete requirements.",
+                "Students must follow the work-term sequence specific to their academic plan.",
+                "Students may not end their sequence with a work term.",
+                "Students must maintain a full-time course load in an academic term preceding a work term.",
+                "Students not meeting requirements of their plan may be transferred to another Science academic plan.",
+                "The co-operative system of study is only open to full-time students.",
+                "The co-operative system of study is not open to students completing a second degree."
+            ],
+            "Study/Work Sequences": {
+                "Legend": {
+                    "F, W, S": "Terms: F=September-December; W=January-April; S=May-August",
+                    "1,2,3,4 + A/B": "Academic year and term",
+                    "WT": "Scheduled work term",
+                    "off": "Neither academic nor work term"
+                },
+                "Plans": {
+                    "Biochemistry, Biology, Chemistry, Earth Sciences, Environmental Sciences, Medicinal Chemistry, Science and Business": ["1A", "1B", "off", "2A", "WT", "2B", "WT", "3A", "WT", "3B", "WT", "WT", "4A", "4B"],
+                    "Biological and Medical Physics, Life Physics, Mathematical Physics, Physics, Physics and Astronomy": ["1A", "1B", "off", "2A", "WT", "2B", "WT", "WT", "3A", "WT", "3B", "WT", "4A", "4B"],
+                    "Biotechnology/Chartered Professional Accountancy": ["1A", "1B", "off", "2A", "WT", "2B", "3A", "WT", "3B", "WT", "4A", "WT", "4B"],
+                    "Materials and Nanosciences": ["1A", "1B", "off", "2A", "WT", "2B", "WT", "3A", "WT", "WT", "3B", "WT", "4A", "4B"],
+                    "Psychology": ["1A", "1B", "off", "2A", "2B", "WT", "3A", "WT", "3B", "WT", "4A", "WT", "WT", "4B"]
+                },
+                "Plan Notes": [
+                    "Admission to Psychology co-op occurs by September for the 2A term.",
+                    "Biotechnology/Chartered Professional Accountancy includes a Master of Accounting (MACc) eight-month graduate program following 4B."
+                ]
+            }
+        }
+    },
+    "Offered by": "Faculty of Science"
+}

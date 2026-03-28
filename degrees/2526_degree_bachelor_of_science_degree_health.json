@@ -1,0 +1,67 @@
+{
+    "degreeType": "BSc",
+    "degreeName": "Bachelor of Science Degree Requirements (Health)",
+    "Minimum Average(s) Required": {
+        "General degree": "A minimum cumulative overall average of 53.0%.",
+        "Honours degrees": "A minimum cumulative overall average of 63.0%.",
+        "notes": "See major for required major average."
+    },
+    "Degree Requirements": {
+        "Unit Requirements": {
+            "Health Sciences": "Complete a total of 20.25 units.",
+            "Kinesiology": "Complete a total of 21.0 units."
+        },
+        "Time to Completion": {
+            "standard": "Students must successfully complete all degree requirements within eight calendar years from the time students first enter their plan.",
+            "exceptions": [
+                "Students admitted with the equivalent of one year advanced standing must complete the degree requirements in seven calendar years of entry into the plan.",
+                "Students admitted with the equivalent of two years of advanced standing must complete the degree requirements in six calendar years of entry into the plan."
+            ]
+        },
+        "Undergraduate Communication Requirement": {
+            "description": "Students are required to complete one course to meet the Undergraduate Communication Requirement.",
+            "required_course": "HEALTH107",
+            "notes": [
+                "Students enrolled in the Faculty of Health before September 2017 should consult the English Language Proficiency Requirement described in the Calendar of their entry year.",
+                "Successful completion of the Undergraduate Communication Requirement will be recorded on a student's transcript.",
+                "Students transferring to another faculty may need additional courses to satisfy that faculty's Undergraduate Communication Requirement.",
+                "Students transferring into the Faculty of Health who have completed their Undergraduate Communication Requirement in another faculty at the University of Waterloo may have it count toward this requirement.",
+                "External transfer credits for HEALTH107 are not permitted; it must be taken at the University of Waterloo."
+            ]
+        },
+        "Co-operative Education Program Requirements": {
+            "Work Terms": {
+                "minimum_total": 4,
+                "minimum_standard": 3
+            },
+            "Professional Development Courses": {
+                "total_required": 4,
+                "requirements": [
+                    "PD1: Must be taken in an academic term prior to the first work term.",
+                    "PD12: Must be taken during the first work term.",
+                    "Two additional PD courses: Taken during the second, third, or fourth work terms."
+                ]
+            },
+            "Additional Constraints and Notes": [
+                "Students must be in an honours academic plan to be eligible for co-op.",
+                "The co-op program is only open to full-time students.",
+                "The co-op program is not open to students completing a second degree.",
+                "Students will be removed from co-op for failing academic requirements or having two unemployed/failed work terms.",
+                "Normally, students removed from co-op will not be re-admitted."
+            ],
+            "Study/Work Sequences": {
+                "Legend": {
+                    "F, W, S": "Terms: F=September-December; W=January-April; S=May-August",
+                    "1,2,3,4 + A/B": "Academic year and term",
+                    "WT": "Scheduled work term",
+                    "off": "Neither academic nor work term"
+                },
+                "Plans": {
+                    "Health Sciences": ["1A", "1B", "off", "2A", "WT", "2B", "WT", "3A", "WT", "3B", "WT", "WT", "4A", "4B"],
+                    "Kinesiology": ["1A", "1B", "off", "2A", "2B", "WT", "WT", "3A", "WT", "3B", "WT", "WT", "4A", "4B"]
+                }
+            }
+        }
+    },
+    "Offered by": "Faculty of Health"
+}
