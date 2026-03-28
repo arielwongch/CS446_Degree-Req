@@ -1,0 +1,21 @@
+{
+    "degreeType": "BES",
+    "degreeName": "Bachelor of Environmental Studies",
+    "Minimum Average(s) Required": "See major for required plan averages.",
+    "Degree Requirements": {
+        "Unit Requirements": {
+            "Three-Year General degree": "Complete a total of 15.0 units, with a minimum of 8.5 units at the 200-level or above.",
+            "Honours degrees": {
+                "description": "Complete a total of 20.0 units.",
+                "majors" : {
+                    "Planning major": "A minimum of 15.0 units must be at the 200-level or above.",
+                    "All other BES majors": "A minimum of 13.5 units must be at the 200-level or above."
+                }
+            }
+        },
+        "Undergraduate Communication Requirement": {
+            "description": "Students working towards a Bachelor of Environmental Studies are required to complete ENVS131, with a grade of 60.0%, to meet the Undergraduate Communication Requirement (UCR). The UCR milestone on a student's academic record will indicate one of the following rules has been met: 1. ENVS131 has been completed with a final grade of 60.0% or higher. 2. The UCR milestone has been earned by the student while enrolled in another University of Waterloo faculty. 3. At time of admission to the Faculty of Environment, a transfer credit from an external accredited post-secondary institution has been granted for ENVS131.",
+            "notes": "If a grade of 60.0% or higher is not achieved in ENVS131, a student will be eligible to repeat the course to meet the UCR milestone requirement. See Faculty of Environment Regulations for information on repeating courses. Earning an UCR milestone and the satisfactory completion of ENVS131 are two unique and distinct degree requirements. Both requirements must be satisfied to be eligible for a Bachelor of Environmental Studies degree. Students who have not attained the UCR milestone by the end of their 2B term must meet with their academic advisor to discuss the completion of this requirement."
+        }
+    }
+}
