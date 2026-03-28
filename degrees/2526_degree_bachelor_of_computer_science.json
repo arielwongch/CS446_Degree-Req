@@ -1,0 +1,78 @@
+{
+  "degreeType": "BCS",
+  "degreeName": "Bachelor of Computer Science",
+  "Minimum Average(s) Required": [
+    "A minimum cumulative overall average of 60.0%.",
+    "See major for required major average (MAV)."
+  ],
+  "Degree Requirements": {
+    "Unit Requirements": {
+      "description": "Complete a minimum of 20.0 units, exceptions noted below.",
+      "exceptions": [
+        "Students in the double degree academic plan: Minimum of 26.0 units."
+      ],
+      "Maximum of unusable attempts": "5.0 units.",
+      "Maximum failed or excluded course units (excluding COOP, PD)": "2.0."
+    },
+
+    "Undergraduate Communication Requirement": {
+      "description": "All Bachelor of Computer Science students must complete two communications courses.",
+      "plans": {
+        "Bachelor of Computer Science and Bachelor of Computer Science (Data Science)": [
+          "Complete two courses from List 1.",
+          "OR complete one course from List 1 and one course from List 2."
+        ],
+        "Business Administration and Computer Science double degree": [
+          "Complete one course from List 1.",
+          "Complete BUS362W before enrolling in 4A."
+        ]
+      },
+      "Additional Constraints and Notes": [
+        "The first List 1 course must be taken on campus and completed with a minimum grade of 60% prior to enrolling in the 2A term.",
+        "Except for some double degree students, the first List 1 course should be taken during the first term in the Faculty of Mathematics.",
+        "Transfer credits may be used to satisfy the Undergraduate Communication Requirement.",
+        "Students who do not complete the first List 1 course prior to their 2A term will have a hold placed on their account and will be required to enrol in a List 1 course."
+      ]
+    },
+
+    "Full-Time Terms": {
+      "Honours": "Minimum of 7 (regular) or 8 (co-operative) full-time terms.",
+      "Honours double degree": "Minimum of 9 full-time terms."
+    }
+    },
+
+    
+
+  "Course Lists": {
+    "Undergraduate Communication Requirement": {
+      "List 1": [
+        "COMMST100 - Interpersonal Communication (0.50)",
+        "COMMST223 - Public Speaking (0.50)",
+        "EMLS101R - Oral Communications for Academic Purposes (0.50)",
+        "EMLS102R - Clear Communication in English Writing (0.50)",
+        "EMLS129R - Written Academic English (0.50)",
+        "ENGL109 - Introduction to Academic Writing (0.50)",
+        "ENGL129R - Written Academic English (0.50)"
+      ],
+
+      "List 2": [
+        "Complete 1 additional course from List 1.",
+        "COMMST225 - Interviewing (0.50)",
+        "COMMST227 - Leadership (0.50)",
+        "COMMST228 - Public Communication (0.50)",
+        "EMLS103R - Effective English Pronunciation (0.50)",
+        "EMLS104R - Reading and Listening for Academic Purposes (0.50)",
+        "EMLS110R - Communicating in Canadian Academic Contexts (0.50)",
+        "ENGL101B - Introduction to Rhetorical Studies (0.50)",
+        "ENGL108B - Global English Literatures (0.50)",
+        "ENGL108D - Digital Lives (0.50)",
+        "ENGL119 - Communications in Mathematics and Computer Science (0.50)",
+        "ENGL208B - Science Fiction (0.50)",
+        "ENGL209 - Advanced Academic Writing (0.50)",
+        "ENGL210E - Genres of Technical Communication (0.50)",
+        "ENGL210F - Genres of Business Communication (0.50)",
+        "ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)"
+      ]
+    }
+  }
+}
