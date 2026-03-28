@@ -1,0 +1,91 @@
+{
+  "degreeType": "BA",
+  "degreeName": "Bachelor of Arts",
+  "Minimum Average(s) Required": [
+    "A minimum cumulative overall average of 60.0%.",
+    "See major for required major average."
+  ],
+  "Degree Requirements": {
+    "Unit Requirements": {
+      "Three-Year General degrees": "Complete a total of 15.0 units, with a minimum of 8.0 units at the 200-level or above.",
+      "Four-Year General degrees": {
+        "description": "Complete a total of 20.0 units.",
+        "majors": {
+          "Liberal Studies major": "A minimum of 12.5 units must be at the 200-level or above.",
+          "All other Arts majors": "A minimum of 8.0 units must be at the 200-level or above."
+        }
+      },
+      "Honours degrees": {
+        "description": "Complete a total of 20.0 units.",
+        "majors": {
+          "Liberal Studies major": "A minimum of 12.5 units must be at the 200-level or above.",
+          "All other Arts majors": "A minimum of 8.0 units must be at the 200-level or above."
+        }
+      }
+    },
+
+    "Breadth Requirements": {
+      "description": "All Bachelor of Arts (BA) students must meet the BA Breadth Requirements.",
+      "requirements": [
+        {
+          "name": "Fine, Performing, and Communication Arts",
+          "unitsRequired": "0.5 unit",
+          "subjectCodes": ["COMMST", "DAC", "FINE", "MUSIC", "THPERF", "VCULT"]
+        },
+        {
+          "name": "Humanities",
+          "unitsRequired": "1.0 unit",
+          "subjectCodes": ["CLAS", "ENGL", "HIST", "MEDVL", "PHIL"]
+        },
+        {
+          "name": "Languages and Cultures",
+          "unitsRequired": "1.0 unit",
+          "subjectCodes": [
+            "ARABIC", "ASL", "CHINA", "CI", "CROAT", "DUTCH", "EASIA", "FR",
+            "GER", "GRK", "ITAL", "ITALST", "JAPAN", "JS", "KOREA", "LAT",
+            "MOHAWK", "PORT", "RCS", "REES", "RUSS", "SI", "SPAN"
+          ]
+        },
+        {
+          "name": "Social Sciences",
+          "unitsRequired": "2.0 units",
+          "subjectCodes": ["ANTH", "ECON", "PSCI", "PSYCH", "SDS", "SOC"]
+        },
+        {
+          "name": "Transdisciplinary Studies",
+          "unitsRequired": "0.5 unit",
+          "subjectCodes": [
+            "AFM", "APPLS", "ARBUS", "ARTS", "BLKST", "BUS", "CDNST", "CMW",
+            "GA", "GBDA", "GSJ", "HHUM", "HRM", "HRTS", "HUMSC", "INDG",
+            "INDENT", "INNOV", "INTST", "LS", "MENN", "MGMT", "PACS",
+            "SFM", "SRF", "SOCWK"
+          ],
+          "additionalNote": "Any course taken in another University of Waterloo faculty may also count."
+        }
+      ],
+
+      "notes": [
+        "Language courses accepted as transfer credits (e.g., LANG) may be counted towards the Languages and Cultures requirement.",
+        "No more than 1.0 unit in the same discipline may count towards the Social Sciences requirement.",
+        "Cross-listed courses may be designated to fulfil only one requirement.",
+        "ARTS160 or ARTS160E do not fulfil any breadth requirement.",
+        "Professional Development (PD) courses do not fulfil any breadth requirement.",
+        "Renamed subject codes count towards the same requirement they previously fulfilled (e.g., SPCOM counted as COMMST).",
+        "Students enrolled prior to September 2008 may refer to Group A and B requirements or petition to follow the new Breadth Requirements."
+      ]
+    },
+
+    "Undergraduate Communication Requirement": {
+      "description": "All Bachelor of Arts students must meet the Undergraduate Communication Requirement by completing ARTS160 or ARTS160E.",
+      "notes": [
+        "Students are expected to complete ARTS160 or ARTS160E by the end of their 1B term.",
+        "Failure to complete the course by the end of the 2B term results in a hold preventing course enrolment.",
+        "After two failed attempts, students may petition the Arts Examinations and Standings Committee for a third attempt.",
+        "Completion of this requirement in another University of Waterloo faculty satisfies the requirement.",
+        "Transfer students may request an exemption with proof of an equivalent course.",
+        "ARTS160 or ARTS160E does not satisfy any Breadth Requirement.",
+        "Students following earlier calendar years should consult their plan-year requirements."
+      ]
+    }
+  }
+}
