@@ -1,0 +1,161 @@
+{
+    "degreeType":"BASc",
+    "degreeName":"Bachelor of Applied Science",
+    "Minimum Average(s) Required":["A minimum cumulative overall average of 60.0%.",
+                              "A minimum term average of 60.0%. See promotion rules."],
+    "Degree Requirements":{
+        "Unit Requirements":"See major for minimum unit requirements.",
+        "Complementary Studies Elective Requirements":{"All Bachelor of Applied Science (BASc) and Bachelor of Software Engineering (BSE) students must satisfy the Complementary Studies Elective Requirement. Specific Engineering major requirements refer to one or more of the following lists of courses that contain substantial complementary studies content":
+                                        ["List A: Impact of Technology and/or Engineering on Society",
+                                        "List B: Engineering Economics",
+                                        "List C: Humanities and Social Sciences (excluding courses concentrated on development of language or other skills)",
+                                        "List D: Other Complementary Studies Courses"],
+                                "Notes":["Course substitutions may be permitted with the approval of the Associate Chair.",
+                                        "Unless permitted otherwise in the specific major requirements, a course that appears in more than one of the four lists below may be counted only once; for example, STV100 may be counted as a List A course or a List C course, but not both."]
+        },
+        "Undergraduate Communication Requirement":{
+            "All Bachelor of Applied Science students must meet the Undergraduate Communication Requirement by completing one of the following courses as outlined by their specific major requirements.":
+                ["Architectural Engineering: COMMST191/ENGL191",
+                "Biomedical Engineering: BME101 and BME101L",
+                "Chemical Engineering: One of COMMST100, COMMST223, EMLS101R, EMLS102R, EMLS129R/ENGL129R, ENGL109",
+                "Civil Engineering: COMMST191/ENGL191",
+                "Computer Engineering: COMMST192/ENGL192",
+                "Electrical Engineering: COMMST192/ENGL192",
+                "Environmental Engineering: COMMST191/ENGL191",
+                "Geological Engineering: COMMST191/ENGL191",
+                "Management Engineering: COMMST192/ENGL192",
+                "Mechanical Engineering: ME100",
+                "Mechatronics Engineering: MTE100",
+                "Nanotechnology Engineering: One of COMMST100, COMMST223, EMLS101R, EMLS102R, EMLS129R/ENGL129R, ENGL109",
+                "Systems Design Engineering: SYDE101 and SYDE101L"]
+        }
+    },
+    "Course Lists":{
+        "Complementary Studies Electives List":"See major for specific requirements.",
+        "List A":{
+            "Choose any of the following:":[
+                "ANTH106 - Technologies of Being Human (0.50)",
+                "BET360 - Design Frameworks for Social Ventures (0.50)",
+                "BET420 - Entrepreneurship for Social Impact (0.50)",
+                "BME381 - Biomedical Engineering Ethics (0.50)",
+                "CS492 - The Social Implications of Computing (0.50)",
+                "ENVS105 - Environmental Sustainability and Ethics (0.50)",
+                "ENVS205 - Sustainability: The Future We Want (0.50)",
+                "ERS215 - Environmental and Sustainability Assessment 1 (0.50)",
+                "ERS315 - Environmental and Sustainability Assessment 2 (0.50)",
+                "GENE311A - Topics for List A Complementary Studies Courses Taken on Exchange by Engineering Students (0.50)",
+                "GEOG203 - Environment and Development in a Global Perspective (0.50)",
+                "GEOG207 - Climate Change Fundamentals (0.50)",
+                "GEOG306 - Human Dimensions of Natural Hazards (0.50)",
+                "GEOG368 - Ecology and Conservation for Planning (0.50)",
+                "GSJ205 - Technology, Gender, and Social Justice (0.50)",
+                "HIST212 - The Computing Society (0.50)",
+                "MSE422 - Economic Impact of Technological Change and Entrepreneurship (0.50)",
+                "MSE442 - Impact of Information Systems on Organizations and Society (0.50)",
+                "NE109 - Societal and Environmental Impacts of Nanotechnology (0.50)",
+                "PACS315 - Engineering and Peace (0.50)",
+                "PHIL226 - Biomedical Ethics (0.50)",
+                "PHIL228 - Ethics and Artificial Intelligence (0.50)",
+                "PLAN341 - Ecology and Conservation for Planning (0.50)",
+                "SOC232 - Technology and Social Change (0.50)",
+                "SOC324 - Digital Cultures (0.50)",
+                "STV100 - Society, Technology and Values: Introduction (0.50)",
+                "STV202 - Design and Society (0.50)",
+                "STV205 - Cybernetics and Society (0.50)",
+                "STV208 - Artificial Intelligence and Society: Impact, Ethics, and Equity (0.50)",
+                "STV210 - The Computing Society (0.50)",
+                "STV302 - Information Technology and Society (0.50)",
+                "STV304 - Technology in Canadian Society (0.50)",
+                "STV305 - Technology, Society and the Modern City (0.50)",
+                "STV306 - Biotechnology and Society (0.50)",
+                "SYDE261 - Design, Systems, and Society (0.50)"
+            ]
+        },
+        "List B":{
+            "Choose any of the following:":[
+                "AE392 - Economics and Life Cycle Cost Analysis (0.50)",
+                "BME364 - Engineering Biomedical Economics (0.50)",
+                "CIVE392 - Economics and Life Cycle Cost Analysis (0.50)",
+                "ENVE392 - Economics and Life Cycle Cost Analysis (0.50)",
+                "GENE311B - Topics for List B Complementary Studies Courses Taken on Exchange by Engineering Students (0.50)",
+                "GEOE392 - Economics and Life Cycle Cost Analysis (0.50)",
+                "MSE261 - Engineering Economics: Financial Management for Engineers (0.50)",
+                "SYDE262 - Engineering Economics of Design (0.50)"
+            ]
+        },
+        "List C":{
+            "Complete all of the following":[
+                "Choose any course (minimum 0.50 unit) with an eligible subject code for List C or listed individually below. Courses that appear on List D or the Exclusions list are ineligible. Courses that satisfy the University Communication Requirement for the student’s major are ineligible.",
+                "Eligible subject codes for List C: ANTH, APPLS, ARTS, BET, BLKST, CDNST, CI, CLAS, CMW, COGSCI, COMMST, DAC, DUTCH, EASIA, ECON, ENBUS, ENGL, FINE, FR, GER, GERON, GRK, GSJ, HHUM, HIST, HRM, HRTS, HUMSC, INDENT, INDEV, INDG, INNOV, INTEG, INTST, ITALST, JS, LAT, LS, MEDVL, MENN, MGMT, MUSIC, PACS, PHIL, PSCI, PSYCH, RCS, REC, REES, SDS, SI, SOC, SPAN, SRF, STV, THPERF, VCULT",
+                "Choose any of the following: AE101 - History of the Built Environment (0.50),AE491 - Engineering Law and Ethics (0.50)",
+                "Choose any of the following: AFM131 - Introduction to Business in North America (0.50),AFM333 - International Business (0.50)",
+                "Choose any of the following: ARCH510 - Special Topics in Visual and Digital Media (0.50),ARCH520 - Special Topics in Urbanism and Landscape (0.50),ARCH540 - Special Topics in Architectural History and Theory (0.50),ARCH580 - Special Topics in Race, Equity, and Environmental Justice (0.50)",
+                "Choose any of the following: AVIA100 - Introduction to Aviation (0.50)",
+                "Choose any of the following: BME530 - The Healthcare System (0.50)",
+                "Choose any of the following: CIVE491 - Engineering Law and Ethics (0.50)",
+                "Choose any of the following: COMM400 - Entrepreneurship, Technology and the Emerging Information Economy (0.50)",
+                "Choose any of the following: CS492 - The Social Implications of Computing (0.50)",
+                "Choose any of the following: ENVE391 - Law and Ethics for Environmental and Geological Engineers (0.50)",
+                "Choose any of the following: ENVS105 - Environmental Sustainability and Ethics (0.50),ENVS195 - Introduction to Environmental Studies (0.50),ENVS201 - Introduction to Canadian Environmental Law (0.50),ENVS205 - Sustainability: The Future We Want (0.50),ENVS210 - Future Studies (0.50),ENVS220 - Ecological Economics (0.50),ENVS310 - Future Cities: Integrating Future Thinking into Urban Decisions (0.50),ENVS401 - Canadian Law, Indigenous Peoples, and Natural Resource Development (0.50)",
+                "Choose any of the following: ERS215 - Environmental and Sustainability Assessment 1 (0.50),ERS222 - War and the Environment (0.50),ERS225 - Gendering Environmental Politics (0.50),ERS253 - Communities and Sustainability (0.50),ERS288 - Literature for an Ailing Planet (0.50),ERS294 - Spirituality, Religion, and Ecology (0.50),ERS315 - Environmental and Sustainability Assessment 2 (0.50),ERS320 - Economics and Sustainability (0.50),ERS328 - Environmental Politics and System Change (0.50),ERS361 - Food Systems and Sustainability (0.50),ERS365 - Water Governance (0.50),ERS370 - Corporate Sustainability: Issues and Prospects (0.50),ERS372 - First Nations and the Environment (0.50),ERS404 - Global Environmental Governance (0.50),ERS406 - Paths to Sustainability (0.50),ERS454 - Parks and Protected Areas: Issues and Trends (0.50),ERS460 - Sustainable Food: Regional Case Study (0.50),ERS462 - Global Food and Agricultural Politics (0.50)",
+                "Choose any of the following: GENE311C - Topics for List C Complementary Studies Courses Taken on Exchange by Engineering Students (0.50),GENE315 - Special Directed Non-Technical Studies (0.50),GENE415 - Non-Technical Studies: Practical Analysis of Student Leadership Experiences (0.50)",
+                "Choose any of the following: GEOE391 - Law and Ethics for Environmental and Geological Engineers (0.50)",
+                "Choose any of the following: GEOG101 - Human Geographies: People, Space and Change (0.50),GEOG202 - Geography of the Global Economy (0.50),GEOG203 - Environment and Development in a Global Perspective (0.50),GEOG207 - Climate Change Fundamentals (0.50),GEOG215 - China: Diverse and Dynamic (0.50),GEOG219 - How Pandemics Change the World (0.50),GEOG222 - Geographical Study of Canada (0.50),GEOG225 - Global Environment and Health (0.50),GEOG233 - Geography of Tourism (0.50),GEOG302 - Geographies of Work and Employment (0.50),GEOG306 - Human Dimensions of Natural Hazards (0.50),GEOG307 - Societal Adaptation to Climate Change (0.50),GEOG314 - Climate Services (0.50),GEOG323 - Tourism Impacts - International Perspectives (0.50),GEOG325 - Geographies of Health (0.50),GEOG336 - Space, Power, and Politics: Citizenship in a Changing World (0.50),GEOG349 - Urban Form and Spatial Structure (0.50),GEOG361 - Food Systems and Sustainability (0.50),GEOG368 - Ecology and Conservation for Planning (0.50),GEOG411 - The Digital Economy (0.50),GEOG423 - Sustainable Tourism (0.50),GEOG432 - Health and the Built Environment (0.50),GEOG460 - Sustainable Food: Regional Case Study (0.50),GEOG462 - Global Food and Agricultural Politics (0.50)",
+                "Choose any of the following: HEALTH107 - Sociology of Activity, Health, and Well-Being (0.50)",
+                "Choose any of the following: HLTH101 - Introduction to Health 1 (0.50),HLTH102 - Introduction to Health 2 (0.50),HLTH201 - Aging and Health (0.50),HLTH218 - Psychology of Death and Dying (0.50),HLTH220 - Psychosocial Perspectives on Lifespan Development and Health (0.50),HLTH245 - Canadian Health Systems (0.50),HLTH253 - Demographic Change in Canada (0.50),HLTH260 - Social Determinants of Health (0.50),HLTH301 - Applied Health Promotion: Theory and Community Engagement (0.50),HLTH352 - Sociology of Aging (0.50),HLTH380 - Applied Public Health Ethics (0.50),HLTH412 - Comparative Health Systems (0.50),HLTH420 - Health and the Built Environment (0.50)",
+                "Choose any of the following: KIN352 - Sociology of Aging (0.50),KIN354 - Psychology of Physical Activity (0.50)",
+                "Choose any of the following: MSE211 - Organizational Behaviour (0.50),MSE263 - Managerial Economics (0.50),MSE311 - Organizational Design and Technology (0.50),MSE411 - Leadership and Influence (0.50),MSE422 - Economic Impact of Technological Change and Entrepreneurship (0.50),MSE442 - Impact of Information Systems on Organizations and Society (0.50),MSE454 - Technical Entrepreneurship (0.50)",
+                "Choose any of the following: PLAN100 - Urbanization Today: Introduction to Cities and Regions (0.50),PLAN262 - Introduction to Global Emerging Cities (0.50),PLAN341 - Ecology and Conservation for Planning (0.50),PLAN349 - Urban Form and Spatial Structure (0.50),PLAN414 - Heritage Conservation Planning (0.50),PLAN415 - Urban Planning and Development in Transitional China (0.50),PLAN431 - Issues in Housing (0.50),PLAN432 - Health and the Built Environment (0.50),PLAN433 - Social Issues in Planning (0.50),PLAN471 - Planning and Municipal Law (0.50)",
+                "Choose any of the following: SCI266 - Ancient Science (0.50),SCI267 - Introduction to the Philosophy of Science (0.50)"
+            ]
+        },
+        "List D":{
+            "Complete all of the following":[
+                "Choose any course (minimum 0.50 unit) with an eligible subject code for List D or listed individually below.",
+                "Eligible subject codes for List D: ARABIC, ASL, CHINA, CROAT, EMLS, ITAL, JAPAN, KOREA, MOHAWK, PORT, RUSS",
+                "Choose any of the following: BLKST308 - Writing Anti-Racism (0.50),BLKST380 - Black Theatre in Practice (0.50)",
+                "Choose any of the following: COMMST100 - Interpersonal Communication (0.50),COMMST102 - Introduction to Performance (0.50),COMMST149 - Introduction to Critical Design Practices (0.50),COMMST220 - Performance Studies (0.50),COMMST223 - Public Speaking (0.50),COMMST225 - Interviewing (0.50),COMMST227 - Leadership (0.50),COMMST308 - Writing Anti-Racism (0.50),COMMST323 - Speech Writing (0.50),COMMST324 - Small Group Communication (0.50),COMMST325 - Organizational Communication (0.50),COMMST326 - Performing the Voice (0.50),COMMST433 - The Organizational Consultant (0.50),COMMST440 - Performative Inquiry and Practice (0.50)",
+                "Choose any of the following: DAC203 - Designing Digital Sound (0.50),DAC209 - Introduction to Critical Design Practices (0.50)",
+                "Choose any of the following: DUTCH101 - Elementary Dutch 1 (0.50),DUTCH102 - Elementary Dutch 2 (0.50)",
+                "Choose any of the following: ENGL109 - Introduction to Academic Writing (0.50),ENGL119 - Communications in Mathematics and Computer Science (0.50),ENGL129R - Written Academic English (0.50),ENGL140R - The Use of English (0.50),ENGL209 - Advanced Academic Writing (0.50),ENGL210E - Genres of Technical Communication (0.50),ENGL210F - Genres of Business Communication (0.50),ENGL210G - Genres of Fundraising Communication (0.50),ENGL210H - Arts Writing (0.50),ENGL210I - Legal Writing (0.50),ENGL210J - Technical Editing (0.50),ENGL304 - Designing Digital Sound (0.50),ENGL306A - Introduction to Linguistics (0.50),ENGL306B - How English Grammar Works (0.50),ENGL306G - Critical Discourse Analysis (0.50),ENGL309E - Speech Writing (0.50),ENGL373 - Writing Anti-Racism (0.50),ENGL375 - Topics in Black Language and Linguistics (0.50),ENGL408B - The Discourse of Advertising (0.50),ENGL408C - The Rhetoric of Digital Design: Theory and Practice (0.50)",
+                "Choose any of the following: ENVS131 - Communications for Environmental Professions (0.50)",
+                "Choose any of the following: ERS318 - Photography for Sustainability (0.50)",
+                "Choose any of the following: FINE100 - Studio Fundamentals (0.50),FINE130 - Introduction to Digital Imaging (0.50),FINE150 - Appreciation and Expression (0.50),FINE201 - Special Topics in Studio for Non-Fine Arts Majors (0.50),FINE202 - Painting (0.50),FINE204 - Topics in Studio Practice (0.50),FINE220 - Oil Painting (0.50),FINE221 - Acrylic and Mixed Media (0.50),FINE222 - Principles of Sculpture (0.50),FINE223 - Methods and Materials of Sculpture (0.50),FINE224 - Expressive Drawing (0.50),FINE225 - Observational Drawing (0.50),FINE226 - Experimental Drawing (0.50),FINE227 - Photography (0.50),FINE228 - Design and Imaging (0.50),FINE230 - Printmaking (0.50),FINE231 - Mixed Multiples (0.50),FINE232 - Video and Sound (0.50),FINE246 - Expanded Media: Site and Intervention (0.50),FINE247 - Expanded Media: Interaction (0.50),FINE271 - Ceramics: Studies in Material Practice (0.50),FINE272 - Clay Studies (0.50),FINE383 - Computational Digital Art Studio (0.50),FINE392 - Technology Art Studio (0.50)",
+                "Choose any of the following: FR101 - Beginner French (0.50),FR151 - Basic French 1 (0.50),FR152 - Basic French 2 (0.50),FR192A - French Language 1: Module 1 (0.50),FR192B - French Language 1: Module 2 (0.50),FR203 - Introduction to Phonetics of French (0.50),FR250 - Intermediate Spoken French (0.50),FR251 - French Language 2: Module 1 (0.50),FR252 - French Language 2: Module 2 (0.50),FR255 - Business French 1 (0.50),FR303 - Introduction to Linguistics (0.50),FR351 - French Language 3 (0.50),FR353 - Introduction to Translation (0.50),FR355 - Business French 2 (0.50),FR400 - Translation Theory and Practice (0.50),FR403 - Sound Structure of French (0.50),FR452 - Advanced French Language (0.50)",
+                "Choose any of the following: GENE311D - Topics for List D Complementary Studies Courses Taken on Exchange by Engineering Students (0.50)",
+                "Choose any of the following: GEOG417 - Climate Change Communication (0.50)",
+                "Choose any of the following: GER101 - Elementary German 1 (0.50),GER102 - Elementary German 2 (0.50),GER201 - Intermediate German 1 (0.50),GER202 - Intermediate German 2 (0.50),GER211 - Contemporary German Language and Culture (0.50),GER250 - Performance German 1 (0.50),GER261 - Understanding Conversation (0.50),GER303 - Interactive German Language and Culture (0.50),GER304 - Reading and Translating (0.50),GER307 - German for Professional Purposes (0.50),GER308 - German Through Comics (0.50),GER331 - Exploring German Language and Literature (0.50),GER350 - Performance German 2 (0.50)",
+                "Choose any of the following: GRK101 - Introductory Ancient Greek 1 (0.50),GRK102 - Introductory Ancient Greek 2 (0.50),GRK105 - Introductory Modern Greek (0.50),GRK201 - Intermediate Greek (0.50),GRK351 - Greek Composition, Grammar and Reading (0.50),GRK451 - Senior Greek Composition, Grammar and Reading (0.50)",
+                "Choose any of the following: HEALTH100 - Foundations of a Healthy Lifestyle (0.50),HEALTH105 - Mental Health Literacy (0.50)",
+                "Choose any of the following: INDG101 - Mohawk Language 1 (0.50),INDG102 - Mohawk Language 2 (0.50)",
+                "Choose any of the following: LAT101 - Introductory Latin 1 (0.50),LAT102 - Introductory Latin 2 (0.50),LAT201 - Intermediate Latin (0.50),LAT351 - Latin Composition, Grammar, and Reading (0.50),LAT451 - Senior Latin Composition, Grammar, and Reading (0.50)",
+                "Choose any of the following: LS291 - Legal Writing (0.50)",
+                "Choose any of the following: MUSIC111 - Fundamentals of Music Theory (0.50),MUSIC222 - Conducting 1 (0.50),MUSIC226 - Music Studio (0.50),MUSIC227 - Music Studio (0.50),MUSIC233 - Musical Rhythms of the World (0.50),MUSIC270 - Music Theory 1 (0.50),MUSIC271 - Music Theory 2 (0.50),MUSIC275 - Music and Technology (0.50),MUSIC322 - Conducting 2 (0.50),MUSIC370 - Music Theory 3 (19th Century) (0.50),MUSIC371 - Music Theory 4 (20th Century) (0.50),MUSIC376 - Composition Seminar (0.50)",
+                "Choose any of the following: RCS101 - Introductory Ancient Greek 1 (0.50),RCS102 - Introductory Ancient Greek 2 (0.50),RCS223 - Intermediate Greek (0.50),RCS224 - Selections from Greek Authors (0.50)",
+                "Choose any of the following: SPAN101 - Introduction to Spanish 1 (0.50),SPAN102 - Introduction to Spanish 2 (0.50),SPAN201A - Intermediate Spanish 1 (0.50),SPAN201B - Intermediate Spanish 2 (0.50),SPAN210 - Spanish Conversation (0.50),SPAN290 - Approaches to Translation (0.50),SPAN301A - Spanish in Context 1 (0.50),SPAN301B - Spanish in Context 2 (0.50),SPAN390 - Introduction to Spanish Business Translation (0.50),SPAN395 - Cultural Dimensions in English/Spanish Literary Translation (0.50),SPAN490 - Advanced Translation (0.50)",
+                "Choose any of the following: THPERF100 - Introduction to Theatre (0.50),THPERF102 - Introduction to Performance (0.50),THPERF149 - Introduction to Critical Design Practices (0.50),THPERF220 - Performance Studies (0.50),THPERF221 - Performing Text (0.50),THPERF222 - Performing the Body (0.50),THPERF284 - Site-Specific Performance (0.50),THPERF301 - Performance Creation (0.50),THPERF321 - Approaches to Acting with Text (0.50),THPERF322 - Approaches to Acting with the Body (0.50),THPERF326 - Performing the Voice (0.50),THPERF343 - Stage Management (0.50),THPERF361 - Approaches to Directing (0.50),THPERF366 - Writing for Performance (0.50),THPERF368 - Collaborative Creation (0.50),THPERF379 - Mixed Reality Design (0.50),THPERF380 - Black Theatre in Practice (0.50),THPERF389 - Audience Engagement (0.50),THPERF440 - Performative Inquiry and Practice (0.50)"
+            ]
+        },
+        "Exclusions":{
+            "Complete all of the following":[
+                "The following lists of courses are ineligible as List C CSE courses.",
+                "The following cannot be used towards this academic plan: ARTS280 - Statistics for Arts Students (0.50)",
+                "The following cannot be used towards this academic plan: CMW201 - Worship Practicum 1 (0.25),CMW202 - Worship Practicum 2 (0.25)",
+                "The following cannot be used towards this academic plan: ECON211 - Introduction to Mathematical Economics (0.50),ECON221 - Statistics for Economists (0.50),ECON311 - Mathematical Economics (0.50)",
+                "The following cannot be used towards this academic plan: ERS316 - Urban Water and Wastewater Systems: Integrated Planning and Management (0.50),ERS317 - Waste Management (0.50)",
+                "The following cannot be used towards this academic plan: GERON310 - Development, Aging, and Health (0.50),GERON355 - Biology of Human Aging (0.50)",
+                "The following cannot be used towards this academic plan: INTEG340 - Research Design and Methods (0.50)",
+                "The following cannot be used towards this academic plan: LS280 - Social Statistics (0.50)",
+                "The following cannot be used towards this academic plan: MGMT171 - Fundamentals of Personal and Business Finance (0.50)",
+                "The following cannot be used towards this academic plan: MUSIC116 - Music Ensemble (0.25),MUSIC117 - Music Ensemble (0.25),MUSIC216 - Music Ensemble (0.25),MUSIC217 - Music Ensemble (0.25),MUSIC316 - Music Ensemble (0.25),MUSIC317 - Music Ensemble (0.25),MUSIC416 - Music Ensemble (0.25),MUSIC417 - Music Ensemble (0.25)",
+                "The following cannot be used towards this academic plan: PHIL252 - Quantum Mechanics for Everyone (0.50)",
+                "The following cannot be used towards this academic plan: PSCI314 - Quantitative Analysis (0.50)",
+                "The following cannot be used towards this academic plan: PSYCH207 - Cognitive Processes (0.50),PSYCH261 - Physiological Psychology (0.50),PSYCH292 - Basic Data Analysis (0.50),PSYCH306 - Perception (0.50),PSYCH307 - Human Neuropsychology (0.50),PSYCH335 - Developmental Neuropsychology (0.50),PSYCH391 - Advanced Data Analysis (0.50),PSYCH486 - Directed Studies - Advanced Statistics (0.50),PSYCH493 - Data Analysis and Graphing in R (0.50)",
+                "The following cannot be used towards this academic plan: REC371 - Quantitative Data Analysis and Mobilization (0.50)",
+                "The following cannot be used towards this academic plan: SDS150R - Lifespan Processes (0.50),SDS250R - Social Statistics (0.50),SDS251R - Social Research (0.50),SDS375R - Studies in Interdisciplinary Social Science (0.50)",
+                "The following cannot be used towards this academic plan: SOC280 - Social Statistics (0.50)",
+                "The following cannot be used towards this academic plan: SRF230 - Introduction to Statistics (0.50)"
+            ]
+        }
+    }
+}
