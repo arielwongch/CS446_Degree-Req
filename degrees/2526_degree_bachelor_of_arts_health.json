@@ -1,0 +1,36 @@
+{
+  "degreeType": "BA",
+  "degreeName": "Bachelor of Arts (Health)",
+  "Minimum Average(s) Required": {
+    "General degree": "A minimum cumulative overall average of 60.0%.",
+    "Honours degrees": "A minimum cumulative overall average of 65.0%.",
+    "note": "See major for required major average."
+  },
+  "Degree Requirements": {
+    "Unit Requirements": "Complete a total of 20.0 units.",
+
+    "Time to Completion": {
+      "Honours co-op degrees": [
+        "Students must successfully complete all degree requirements within eight calendar years from the time students first enter their plan.",
+        "Students admitted with the equivalent of one year advanced standing must complete the degree requirements in seven calendar years of entry into the plan.",
+        "Students admitted with the equivalent of two years of advanced standing must complete the degree requirements in six calendar years of entry into the plan."
+      ],
+      "Honours regular and general degrees": [
+        "Students may complete their degree requirements on a part-time basis.",
+        "Students admitted with one year or more of advanced standing must complete the degree requirements in 10 years of entry into the degree."
+      ]
+    },
+
+    "Undergraduate Communication Requirement": {
+      "description": "Students are required to complete one course to meet the Undergraduate Communication Requirement.",
+      "course": "HEALTH107",
+      "Notes": [
+        "Students enrolled in the Faculty of Health before September 2017 should consult the English Language Proficiency Requirement described in the Calendar of their entry year.",
+        "Successful completion of the Undergraduate Communication Requirement will be recorded on a student's transcript.",
+        "Students transferring to another faculty may need additional courses to satisfy that faculty's Undergraduate Communication Requirement.",
+        "Students transferring into the Faculty of Health who completed the Undergraduate Communication Requirement in another University of Waterloo faculty may have it recognized.",
+        "External transfer credits for HEALTH107 are not permitted; the course must be taken at the University of Waterloo."
+      ]
+    }
+}
+}
