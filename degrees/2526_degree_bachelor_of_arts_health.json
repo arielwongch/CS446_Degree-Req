@@ -1,36 +1,86 @@
 {
   "degreeType": "BA",
   "degreeName": "Bachelor of Arts (Health)",
+  "faculty": "Faculty of Health",
   "Minimum Average(s) Required": {
-    "General degree": "A minimum cumulative overall average of 60.0%.",
-    "Honours degrees": "A minimum cumulative overall average of 65.0%.",
+    "General degree": 60.0,
+    "Honours degrees": 65.0,
     "note": "See major for required major average."
   },
   "Degree Requirements": {
-    "Unit Requirements": "Complete a total of 20.0 units.",
+    "Unit Requirements": {
+      "total_units": 20.0
+    },
 
     "Time to Completion": {
-      "Honours co-op degrees": [
-        "Students must successfully complete all degree requirements within eight calendar years from the time students first enter their plan.",
-        "Students admitted with the equivalent of one year advanced standing must complete the degree requirements in seven calendar years of entry into the plan.",
-        "Students admitted with the equivalent of two years of advanced standing must complete the degree requirements in six calendar years of entry into the plan."
-      ],
-      "Honours regular and general degrees": [
-        "Students may complete their degree requirements on a part-time basis.",
-        "Students admitted with one year or more of advanced standing must complete the degree requirements in 10 years of entry into the degree."
-      ]
+      "Honours co-op degrees": {
+        "max_years": 8,
+        "exceptions": [
+          "Students admitted with the equivalent of one year of advanced standing must complete the degree requirements within seven calendar years of entry into the plan.",
+          "Students admitted with the equivalent of two years of advanced standing must complete the degree requirements within six calendar years of entry into the plan."
+        ]
+      },
+      "Honours regular and general degrees": {
+        "part_time_permitted": true,
+        "exceptions": [
+          "Students admitted with one year or more of advanced standing must complete the degree requirements within 10 years of entry into the degree."
+        ]
+      }
     },
 
     "Undergraduate Communication Requirement": {
       "description": "Students are required to complete one course to meet the Undergraduate Communication Requirement.",
-      "course": "HEALTH107",
-      "Notes": [
+      "ucr_courses": ["HEALTH107"],
+      "external_transfer_credit_permitted": false,
+      "notes": [
         "Students enrolled in the Faculty of Health before September 2017 should consult the English Language Proficiency Requirement described in the Calendar of their entry year.",
-        "Successful completion of the Undergraduate Communication Requirement will be recorded on a student's transcript.",
-        "Students transferring to another faculty may need additional courses to satisfy that faculty's Undergraduate Communication Requirement.",
-        "Students transferring into the Faculty of Health who completed the Undergraduate Communication Requirement in another University of Waterloo faculty may have it recognized.",
-        "External transfer credits for HEALTH107 are not permitted; the course must be taken at the University of Waterloo."
+        "Successful completion of the Undergraduate Communication Requirement will be recorded on a student's transcript as completion of the Undergraduate Communication Requirement.",
+        "Students transferring to another faculty should note that additional courses may be required to satisfy the other faculty's Undergraduate Communication Requirement.",
+        "Students transferring into the Faculty of Health who have completed their Undergraduate Communication Requirement in another faculty at the University of Waterloo will be eligible to have it count for their Faculty of Health Undergraduate Communication Requirement.",
+        "The Faculty of Health does not permit external transfer credits for HEALTH107 from students transferring from another institution. HEALTH107 must be taken at the University of Waterloo to satisfy the Faculty of Health's Undergraduate Communication Requirement."
+      ]
+    },
+
+    "Co-operative Education Program Requirements": {
+      "description": "For Bachelor of Arts (Health) students in honours co-op academic plans.",
+      "work_term_requirements": {
+        "minimum_credited_work_terms": 4,
+        "minimum_standard_work_terms": 3
+      },
+      "professional_development_requirements": {
+        "minimum_pd_courses": 4,
+        "required_courses": {
+          "PD1": "Must be taken in an academic term prior to the first work term.",
+          "PD12": "Must be taken during the first work term.",
+          "additional": "Two additional PD courses to be taken during the second, third, or fourth work terms."
+        }
+      },
+      "Additional Constraints and Notes": [
+        "Students must be in an honours academic plan to be eligible for the co-operative (co-op) system of study.",
+        "The co-op program is only open to full-time students.",
+        "The co-op program is not open to students seeking to complete a second degree.",
+        "Students will be removed from their co-op program in the following situations: failure to successfully meet academic program requirements, including minimum averages; or two unemployed or failed work-term opportunities.",
+        "Normally, students who are removed from co-op will not be re-admitted into the co-op program."
+      ]
+    },
+
+    "Study/Work Sequences": {
+      "legend": {
+        "F/W/S": "Terms: F=September-December; W=January-April; S=May-August",
+        "1,2,3,4 plus A or B": "Academic year and term",
+        "WT": "Scheduled work term",
+        "off": "Neither an academic term nor a work term"
+      },
+      "sequences": [
+        {
+          "plans": [
+            "Recreation, Leadership, and Health",
+            "Sport and Recreation Management",
+            "Therapeutic Recreation"
+          ],
+          "sequence": ["1A","1B","off","2A","WT","2B","WT","3A","WT","3B","WT","4A","WT","4B"]
+        }
       ]
     }
-}
+  }
 }
