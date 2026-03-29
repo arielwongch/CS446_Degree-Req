@@ -1,47 +1,161 @@
 {
   "degreeType": "BCS",
   "degreeName": "Bachelor of Computer Science",
-  "Minimum Average(s) Required": [
-    "A minimum cumulative overall average of 60.0%.",
-    "See major for required major average (MAV)."
-  ],
+  "faculty": "Faculty of Mathematics",
+  "Minimum Average(s) Required": {
+    "cumulative_overall": 60.0,
+    "note": "See major for required major average (MAV)."
+  },
   "Degree Requirements": {
     "Unit Requirements": {
-      "description": "Complete a minimum of 20.0 units, exceptions noted below.",
-      "exceptions": [
-        "Students in the double degree academic plan: Minimum of 26.0 units."
-      ],
-      "Maximum of unusable attempts": "5.0 units.",
-      "Maximum failed or excluded course units (excluding COOP, PD)": "2.0."
-    },
-
-    "Undergraduate Communication Requirement": {
-      "description": "All Bachelor of Computer Science students must complete two communications courses.",
-      "plans": {
-        "Bachelor of Computer Science and Bachelor of Computer Science (Data Science)": [
-          "Complete two courses from List 1.",
-          "OR complete one course from List 1 and one course from List 2."
-        ],
-        "Business Administration and Computer Science double degree": [
-          "Complete one course from List 1.",
-          "Complete BUS362W before enrolling in 4A."
-        ]
+      "default_minimum_units": 20.0,
+      "exceptions": {
+        "Double degree academic plan": 26.0
       },
-      "Additional Constraints and Notes": [
-        "The first List 1 course must be taken on campus and completed with a minimum grade of 60% prior to enrolling in the 2A term.",
-        "Except for some double degree students, the first List 1 course should be taken during the first term in the Faculty of Mathematics.",
-        "Transfer credits may be used to satisfy the Undergraduate Communication Requirement.",
-        "Students who do not complete the first List 1 course prior to their 2A term will have a hold placed on their account and will be required to enrol in a List 1 course."
-      ]
+      "max_unusable_attempt_units": 5.0,
+      "max_failed_or_excluded_units": 2.0,
+      "max_failed_or_excluded_units_note": "Excluding COOP and PD courses."
     },
 
     "Full-Time Terms": {
-      "Honours": "Minimum of 7 (regular) or 8 (co-operative) full-time terms.",
-      "Honours double degree": "Minimum of 9 full-time terms."
-    }
+      "Honours": {
+        "regular": 7,
+        "co_operative": 8
+      },
+      "Honours double degree": 9
     },
 
-    
+    "Undergraduate Communication Requirement": {
+      "description": "All Bachelor of Computer Science students must meet the Undergraduate Communication Requirement by successfully completing two communications courses.",
+      "by_plan": {
+        "Bachelor of Computer Science": {
+          "options": [
+            "Complete two courses from List 1.",
+            "Complete one course from List 1 and one course from List 2."
+          ]
+        },
+        "Bachelor of Computer Science (Data Science)": {
+          "options": [
+            "Complete two courses from List 1.",
+            "Complete one course from List 1 and one course from List 2."
+          ]
+        },
+        "Business Administration and Computer Science double degree": {
+          "options": [
+            "Complete one course from List 1.",
+            "Complete BUS362W before enrolling in 4A."
+          ]
+        }
+      },
+      "ucr_min_grade": 60.0,
+      "ucr_min_grade_applies_to": "First List 1 course",
+      "hold_if_not_completed_by_term": "2A",
+      "Additional Constraints and Notes": [
+        "The first List 1 course should be taken on campus and must be completed with a minimum grade of 60% prior to enrolling in the 2A term.",
+        "With the exception of some students in the double degree academic plan, the first List 1 course should be taken during a student's first term of study in the Faculty of Mathematics.",
+        "Transfer credits may be used to satisfy the Undergraduate Communication Requirement.",
+        "Students who do not complete the first List 1 course prior to their 2A term will have a hold placed on their account and will be required to enrol in a List 1 course. Such students will need to seek assistance with enrolment from their academic advisor."
+      ]
+    },
+
+    "Co-operative Education Program Requirements": {
+      "Bachelor of Computer Science": {
+        "work_term_requirements": {
+          "minimum_credited_work_terms": 5,
+          "minimum_standard_work_terms": 3
+        },
+        "professional_development_requirements": {
+          "minimum_pd_courses": 5,
+          "required_courses": {
+            "PD1": "Must be taken in an academic term prior to the first work term.",
+            "PD11": "Must be taken during the first work term.",
+            "PD10": "Should be taken during a work term.",
+            "additional": "Two additional PD courses to be taken during each work term until the requirement is complete."
+          }
+        },
+        "Additional Constraints and Notes": [
+          "Students are expected to follow the normal study/work-term sequence appropriate to their plan from admission through to graduation.",
+          "Students admitted at the 1A level (except for those in Business Administration and Computer Science double degree) will normally have eight academic terms and six work terms.",
+          "Students' requests to re-arrange their sequence will normally be approved if all the criteria listed on the Faculty of Mathematics Sequence Change Form are met. Students who alter their sequence without obtaining prior approval may be required to withdraw from the co-op system. It is the student's responsibility to deal with any timetabling difficulties that may arise and to select courses for subsequent terms.",
+          "Late transfers to the co-operative system are considered once per term. Admission is very competitive and is a function of availability and demonstrated academic performance at the university level.",
+          "Regular students in the Faculty of Mathematics may apply to transfer to the co-op system of study in their 1B term. To be eligible, at the time of admission to co-op, such students must have successfully completed between 4.0 and 6.0 units, including transfer credits.",
+          "Non-co-op students from other faculties at the University of Waterloo may apply to transfer to the co-op system in the Faculty of Mathematics at the end of their 1B term, as part of the faculty transfer process.",
+          "Non-co-op students external to the University of Waterloo are eligible to apply for co-op in the Faculty of Mathematics only if, at the time of admission, they have successfully completed no more than 3.0 units of math transfer credits and between 4.0 and 6.0 transfer credits overall.",
+          "Applications to transfer to co-op from co-op students external to the University of Waterloo will be considered on a case-by-case basis."
+        ]
+      },
+      "Business Administration and Computer Science double degree": {
+        "work_term_requirements": {
+          "home_school_Waterloo": {
+            "credited_work_terms": "4 or 5",
+            "notes": [
+              "Students in this program will be required to pay six co-op fees, which are usually assessed in the first three years of study.",
+              "Students can only change their co-op term sequence in their first three years if they have especially mitigating circumstances, and with the approval of both universities. This type of change may delay graduation."
+            ]
+          },
+          "home_school_Laurier": {
+            "credited_work_terms": "3 or 4",
+            "notes": [
+              "The first work term occurs during the winter term of Year Two.",
+              "After this term, Laurier and Waterloo students have co-op terms at the same time."
+            ]
+          }
+        }
+      }
+    },
+
+    "Study/Work Sequences": {
+      "legend": {
+        "S/S": "Sequence/Stream",
+        "F/W/S": "Terms: F=September-December; W=January-April; S=May-August",
+        "1,2,3,4 plus A or B": "Academic year and term",
+        "WT": "Scheduled work term",
+        "off": "Neither an academic term nor a work term",
+        "*": "In order to access courses in appropriate terms, students in some plans may be required to modify their sequence when admitted to these academic plans after 1B."
+      },
+      "sequences": [
+        {
+          "plans": ["Computer Science", "Data Science"],
+          "note": "Sequence modification may be required for students admitted after 1B.",
+          "streams": [
+            {
+              "stream": "1",
+              "sequence": ["1A","1B","WT","2A","WT","2B","WT","3A","WT","3B","WT","4A","WT","4B"]
+            },
+            {
+              "stream": "2",
+              "sequence": ["1A","1B","WT","2A","2B","WT","3A","WT","3B","WT","4A","WT","WT","4B"]
+            },
+            {
+              "stream": "3",
+              "sequence": ["1A","1B","off","2A","WT","2B","WT","3A","WT","3B","WT","4A","WT","WT","4B"]
+            },
+            {
+              "stream": "4",
+              "sequence": ["1A","1B","2A","WT","2B","WT","3A","WT","3B","WT","4A","WT","WT","4B"]
+            }
+          ]
+        },
+        {
+          "plans": ["Business Administration and Computer Science double degree"],
+          "streams": [
+            {
+              "stream": "1",
+              "sequence": ["1A","1B","WT","2A","WT","2B","3A","WT","3B","4A","4B","WT","5A","5B"]
+            },
+            {
+              "stream": "2",
+              "sequence": ["1A","1B","WT","2A","WT","2B","3A","WT","3B","WT","4A","4B","WT","5A","5B"]
+            },
+            {
+              "stream": "3",
+              "sequence": ["1A","1B","WT","2A","WT","2B","3A","WT","3B","4A","WT","4B","WT","5A","5B"]
+            }
+          ]
+        }
+      ]
+    }
+  },
 
   "Course Lists": {
     "Undergraduate Communication Requirement": {
@@ -54,25 +168,26 @@
         "ENGL109 - Introduction to Academic Writing (0.50)",
         "ENGL129R - Written Academic English (0.50)"
       ],
-
-      "List 2": [
-        "Complete 1 additional course from List 1.",
-        "COMMST225 - Interviewing (0.50)",
-        "COMMST227 - Leadership (0.50)",
-        "COMMST228 - Public Communication (0.50)",
-        "EMLS103R - Effective English Pronunciation (0.50)",
-        "EMLS104R - Reading and Listening for Academic Purposes (0.50)",
-        "EMLS110R - Communicating in Canadian Academic Contexts (0.50)",
-        "ENGL101B - Introduction to Rhetorical Studies (0.50)",
-        "ENGL108B - Global English Literatures (0.50)",
-        "ENGL108D - Digital Lives (0.50)",
-        "ENGL119 - Communications in Mathematics and Computer Science (0.50)",
-        "ENGL208B - Science Fiction (0.50)",
-        "ENGL209 - Advanced Academic Writing (0.50)",
-        "ENGL210E - Genres of Technical Communication (0.50)",
-        "ENGL210F - Genres of Business Communication (0.50)",
-        "ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)"
-      ]
+      "List 2": {
+        "note": "Complete one additional course from List 1, or one of the following.",
+        "courses": [
+          "COMMST225 - Interviewing (0.50)",
+          "COMMST227 - Leadership (0.50)",
+          "COMMST228 - Public Communication (0.50)",
+          "EMLS103R - Effective English Pronunciation (0.50)",
+          "EMLS104R - Reading and Listening for Academic Purposes (0.50)",
+          "EMLS110R - Communicating in Canadian Academic Contexts (0.50)",
+          "ENGL101B - Introduction to Rhetorical Studies (0.50)",
+          "ENGL108B - Global English Literatures (0.50)",
+          "ENGL108D - Digital Lives (0.50)",
+          "ENGL119 - Communications in Mathematics and Computer Science (0.50)",
+          "ENGL208B - Science Fiction (0.50)",
+          "ENGL209 - Advanced Academic Writing (0.50)",
+          "ENGL210E - Genres of Technical Communication (0.50)",
+          "ENGL210F - Genres of Business Communication (0.50)",
+          "ENGL378 - Professional Communications in Statistics and Actuarial Science (0.50)"
+        ]
+      }
     }
   }
 }
