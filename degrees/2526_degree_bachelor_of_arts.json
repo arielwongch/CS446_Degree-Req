@@ -1,25 +1,29 @@
 {
   "degreeType": "BA",
   "degreeName": "Bachelor of Arts",
+  "faculty": "Faculty of Arts",
   "Minimum Average(s) Required": [
     "A minimum cumulative overall average of 60.0%.",
     "See major for required major average."
   ],
   "Degree Requirements": {
     "Unit Requirements": {
-      "Three-Year General degrees": "Complete a total of 15.0 units, with a minimum of 8.0 units at the 200-level or above.",
+      "Three-Year General degrees": {
+        "total_units": 15.0,
+        "min_units_above_200": 8.0
+      },
       "Four-Year General degrees": {
-        "description": "Complete a total of 20.0 units.",
-        "majors": {
-          "Liberal Studies major": "A minimum of 12.5 units must be at the 200-level or above.",
-          "All other Arts majors": "A minimum of 8.0 units must be at the 200-level or above."
+        "total_units": 20.0,
+        "min_units_above_200": {
+          "Liberal Studies major": 12.5,
+          "All other Arts majors": 8.0
         }
       },
       "Honours degrees": {
-        "description": "Complete a total of 20.0 units.",
-        "majors": {
-          "Liberal Studies major": "A minimum of 12.5 units must be at the 200-level or above.",
-          "All other Arts majors": "A minimum of 8.0 units must be at the 200-level or above."
+        "total_units": 20.0,
+        "min_units_above_200": {
+          "Liberal Studies major": 12.5,
+          "All other Arts majors": 8.0
         }
       }
     },
@@ -29,18 +33,18 @@
       "requirements": [
         {
           "name": "Fine, Performing, and Communication Arts",
-          "unitsRequired": "0.5 unit",
-          "subjectCodes": ["COMMST", "DAC", "FINE", "MUSIC", "THPERF", "VCULT"]
+          "units_required": 0.5,
+          "subject_codes": ["COMMST", "DAC", "FINE", "MUSIC", "THPERF", "VCULT"]
         },
         {
           "name": "Humanities",
-          "unitsRequired": "1.0 unit",
-          "subjectCodes": ["CLAS", "ENGL", "HIST", "MEDVL", "PHIL"]
+          "units_required": 1.0,
+          "subject_codes": ["CLAS", "ENGL", "HIST", "MEDVL", "PHIL"]
         },
         {
           "name": "Languages and Cultures",
-          "unitsRequired": "1.0 unit",
-          "subjectCodes": [
+          "units_required": 1.0,
+          "subject_codes": [
             "ARABIC", "ASL", "CHINA", "CI", "CROAT", "DUTCH", "EASIA", "FR",
             "GER", "GRK", "ITAL", "ITALST", "JAPAN", "JS", "KOREA", "LAT",
             "MOHAWK", "PORT", "RCS", "REES", "RUSS", "SI", "SPAN"
@@ -48,43 +52,84 @@
         },
         {
           "name": "Social Sciences",
-          "unitsRequired": "2.0 units",
-          "subjectCodes": ["ANTH", "ECON", "PSCI", "PSYCH", "SDS", "SOC"]
+          "units_required": 2.0,
+          "subject_codes": ["ANTH", "ECON", "PSCI", "PSYCH", "SDS", "SOC"]
         },
         {
           "name": "Transdisciplinary Studies",
-          "unitsRequired": "0.5 unit",
-          "subjectCodes": [
+          "units_required": 0.5,
+          "subject_codes": [
             "AFM", "APPLS", "ARBUS", "ARTS", "BLKST", "BUS", "CDNST", "CMW",
             "GA", "GBDA", "GSJ", "HHUM", "HRM", "HRTS", "HUMSC", "INDG",
             "INDENT", "INNOV", "INTST", "LS", "MENN", "MGMT", "PACS",
             "SFM", "SRF", "SOCWK"
           ],
-          "additionalNote": "Any course taken in another University of Waterloo faculty may also count."
+          "additional_note": "Any course taken in another University of Waterloo faculty may also count."
         }
       ],
-
       "notes": [
         "Language courses accepted as transfer credits (e.g., LANG) may be counted towards the Languages and Cultures requirement.",
         "No more than 1.0 unit in the same discipline may count towards the Social Sciences requirement.",
-        "Cross-listed courses may be designated to fulfil only one requirement.",
+        "Cross-listed courses may be designated to fulfil only one requirement. For example, a student registered in PACS203/HIST232 may receive credit for either the Transdisciplinary Studies requirement or the Humanities requirement, but not for both.",
         "ARTS160 or ARTS160E do not fulfil any breadth requirement.",
         "Professional Development (PD) courses do not fulfil any breadth requirement.",
-        "Renamed subject codes count towards the same requirement they previously fulfilled (e.g., SPCOM counted as COMMST).",
-        "Students enrolled prior to September 2008 may refer to Group A and B requirements or petition to follow the new Breadth Requirements."
+        "Renamed subject codes count towards the same requirement they previously fulfilled (e.g., SPCOM counted as COMMST). See previous Calendars.",
+        "For students enrolled in an Arts degree program prior to September 2008, refer to the Group A and B requirements. Those students who wish instead to adhere to the new Breadth Requirements (effective September 2008) may do so by submitting a petition."
       ]
     },
 
     "Undergraduate Communication Requirement": {
-      "description": "All Bachelor of Arts students must meet the Undergraduate Communication Requirement by completing ARTS160 or ARTS160E.",
+      "description": "All Bachelor of Arts students must meet the Undergraduate Communication Requirement by successfully completing an Arts First course, either ARTS160 or ARTS160E. The Arts First program fosters the development of foundational competencies in inquiry, communication, and analysis in students' first year to support their success.",
+      "ucr_courses": ["ARTS160", "ARTS160E"],
+      "recommended_completion_term": "1B",
+      "hold_if_not_completed_by_term": "2B",
       "notes": [
-        "Students are expected to complete ARTS160 or ARTS160E by the end of their 1B term.",
-        "Failure to complete the course by the end of the 2B term results in a hold preventing course enrolment.",
-        "After two failed attempts, students may petition the Arts Examinations and Standings Committee for a third attempt.",
-        "Completion of this requirement in another University of Waterloo faculty satisfies the requirement.",
-        "Transfer students may request an exemption with proof of an equivalent course.",
-        "ARTS160 or ARTS160E does not satisfy any Breadth Requirement.",
-        "Students following earlier calendar years should consult their plan-year requirements."
+        "Students are expected to complete ARTS160 or ARTS160E by the end of their 1B term. Failure to complete this course by the end of 2B term will result in a hold placed on the student's account, preventing self-enrolment in courses for the following term.",
+        "In the event of a second failed attempt at ARTS160 or ARTS160E, students may submit a petition to the Arts Examinations and Standings Committee requesting permission for a third attempt.",
+        "The completion of the Undergraduate Communication Requirement in the student's previous University of Waterloo home faculty shall satisfy this requirement.",
+        "Students transferring to Arts at the University of Waterloo from other universities may request an exemption from ARTS160 or ARTS160E with proof of the appropriate equivalent.",
+        "ARTS160 or ARTS160E does not fulfil any of the Bachelor of Arts Breadth Requirements.",
+        "Students enrolled in a Faculty of Arts plan prior to the September 2025 Calendar who have not completed their Undergraduate Communication Requirement should consult the requirements for the Undergraduate Communication Requirement as outlined in the Calendar of their plan year. Normally, students who have successfully completed one of ARTS130 or ARTS140 may complete their Undergraduate Communication Requirement by completing ARTS160 or ARTS160E. Students who have successfully completed neither ARTS130 nor ARTS140 should consult their academic advisor about their options."
+      ]
+    },
+
+    "Co-operative Education Program Requirements": {
+      "description": "For Bachelor of Arts students in Honours Arts co-op or Honours Arts and Business co-op.",
+      "work_term_requirements": {
+        "minimum_credited_work_terms": 4,
+        "minimum_standard_work_terms": 3
+      },
+      "professional_development_requirements": {
+        "minimum_pd_courses": 4,
+        "required_courses": {
+          "PD1": "Must be taken in an academic term prior to the first work term.",
+          "PD12": "Must be taken during the first work term.",
+          "additional": "Two additional PD courses to be taken during each work term until the requirement is complete."
+        }
+      },
+      "Additional Constraints and Notes": [
+        "Co-operative plans are open only to full-time students.",
+        "Students with more than 6.5 units completed, including post-secondary transfer credits and credits completed outside the Faculty of Arts, are not eligible to transfer from a regular plan to a co-op plan within the Faculty of Arts. Students who have already successfully completed one or more work terms regardless of faculty may be considered for an exception to this rule – such exceptions will be determined by the admitting program.",
+        "Students seeking to complete a BA in the Faculty of Arts as a second degree having already completed a bachelor's degree in any discipline at the University of Waterloo or elsewhere are not eligible for admission to a co-op plan."
+      ]
+    },
+
+    "Study/Work Sequences": {
+      "legend": {
+        "F/W/S": "Terms: F=September-December; W=January-April; S=May-August",
+        "1,2,3,4 plus A or B": "Academic year and term",
+        "WT": "Scheduled work term",
+        "off": "Neither an academic term nor a work term"
+      },
+      "sequences": [
+        {
+          "plans": ["Arts and Business", "Honours Arts co-op — Economics", "Honours Arts co-op — English", "Honours Arts co-op — Fine Arts", "Honours Arts co-op — Mathematical Economics"],
+          "sequence": ["1A","1B","off","2A","WT","2B","WT","3A","WT","3B","WT","WT","4A","4B"]
+        },
+        {
+          "plans": ["Honours Arts co-op (all majors excluding Economics, English, Fine Arts, Mathematical Economics)"],
+          "sequence": ["1A","1B","off","2A","2B","WT","3A","WT","3B","WT","4A","WT","WT","4B"]
+        }
       ]
     }
   }
